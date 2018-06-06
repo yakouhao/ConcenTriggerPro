@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.2px"
+        android:background="@color/lightGrey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <!--事件-->
+        <LinearLayout
+            android:id="@+id/id_tab_event"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_event_img"
+                android:clickable="false"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/tab_event_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:text="Event"/>
+        </LinearLayout>
+
+
+        <!--广场-->
+        <LinearLayout
+            android:id="@+id/id_tab_square"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_square_img"
+                android:clickable="false"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/tab_square_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:text="Square"/>
+        </LinearLayout>
+
+
+        <!--我-->
+        <LinearLayout
+            android:id="@+id/id_tab_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_me_img"
+                android:clickable="false"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/tab_me_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:text="My"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
