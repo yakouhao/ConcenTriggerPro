@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/lightGrey"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <!--事件-->
+        <LinearLayout
+            android:id="@+id/id_tab_event"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20px">
+
+            <ImageButton
+                android:id="@+id/id_tab_event_img"
+                android:clickable="false"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/tab_event_pressed"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="12sp"
+                android:text="Event"/>
+        </LinearLayout>
+
+
+        <!--广场-->
+        <LinearLayout
+            android:id="@+id/id_tab_square"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20px">
+
+            <ImageButton
+                android:id="@+id/id_tab_square_img"
+                android:clickable="false"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/tab_square_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="12sp"
+                android:text="Square"/>
+        </LinearLayout>
+
+        <!--消息-->
+        <LinearLayout
+            android:id="@+id/id_tab_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20px">
+
+            <ImageButton
+                android:id="@+id/id_tab_msg_img"
+                android:clickable="false"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/tab_msg_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="12sp"
+                android:text="Message"/>
+        </LinearLayout>
+
+
+        <!--我-->
+        <LinearLayout
+            android:id="@+id/id_tab_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20px">
+
+            <ImageButton
+                android:id="@+id/id_tab_me_img"
+                android:clickable="false"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/tab_me_normal"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="12sp"
+                android:text="My"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

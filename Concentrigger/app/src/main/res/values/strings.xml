@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ConcenTrigger</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="URL_SERVER">http://127.0.0.1:8080/concenTrigger</string>
+    <string name="URL_USER_INFO">/user/userInfo</string>
+    <string name="URL_CHANGE_AVATAR">/user/changeAvatar</string>
+    <string name="URL_MSG_LIST">/user/messageList</string>
+    <string name="URL_LOGIN_SIGNUP">/user/loginSignup</string>
+    <string name="URL_NEW_EVENT">/user/newEvent</string>
+
+</resources>

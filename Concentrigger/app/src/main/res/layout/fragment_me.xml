@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ct.ct.concentrigger.Fragment.MeFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.ct.ct.concentrigger.Util.RoundImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:src="@mipmap/weibo"/>
+
+        <TextView
+            android:id="@+id/txt_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="holic"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_event_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 events"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
